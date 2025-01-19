@@ -12,7 +12,7 @@ os.makedirs(output_folder, exist_ok=True)
 
 # Load CSV
 try:
-    df = pd.read_csv('Active Inventory Product Barcode SKUs - Sheet1 (1).csv')  # Use the exact file name
+    df = pd.read_csv('ProductNames_SKUS.csv')  # Use the exact file name
     print("CSV loaded successfully!")
 except FileNotFoundError:
     print("CSV file not found. Check the file path.")
